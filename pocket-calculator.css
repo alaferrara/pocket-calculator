@@ -1,0 +1,30 @@
+
+#addition {
+ font-size: 32px;
+}
+
+table {
+ border-collapse: collapse;
+ width:40%;
+}
+
+td {
+ width:100px;
+ font-size:20px;
+ background-color: lightblue;
+ border-radius: 10px;
+}
+
+tr {
+ height:100px;
+}
+
+th {
+ border-top: 1px solid black;
+ border-right: 1px solid black;
+ border-left: 1px solid black;
+}
+
+td:hover{
+ background-color: lightgreen;
+}
