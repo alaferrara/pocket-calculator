@@ -5,11 +5,11 @@
     <title>Pocket Calculator</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/pocket-calculator.css"/>
+    <link rel="stylesheet" type="text/css" href="pocket-calculator.css"/>
 
     <!-- JavaScript -->
 
-    <script type="text/javascript" src="js/pocket-calculator.js"></script>
+    <script type="text/javascript" src="pocket-calculator.js"></script>
   </head>
 
   <body>
@@ -17,44 +17,45 @@
       <center><h1>POCKET CALCULATOR</h1><center>
       <hr/>
     </div>
-        
+
    <table>
  <tr>
    <th colspan='4' id="addition"></th>
 
+ </tr>
 
+ <tr>
+   <td> <button onclick="AC();">AC</td>
+   <td> <button onclick="negation();">+/-</td>
+   <td> <button onclick="percent();">%</td>
+   <td> <button onclick="divison();">/</td>
+ </tr>
+ <tr>
+   <td> <button onclick="numbers('1');">1</td>
+   <td> <button onclick="numbers('2');">2</td>
+   <td> <button onclick="numbers('3');">3</td>
+   <td> <button onclick="multiplication();">x</td>
+ </tr>
+ <tr>
+   <td> <button onclick="numbers('4');">4</td>
+   <td> <button onclick="numbers('5');">5</td>
+   <td> <button onclick="numbers('6');">6</td>
+   <td> <button onclick="subtraction();">-</td>
+ </tr>
+ <tr>
+ <td> <button onclick="numbers('7');">7</td>
+ <td> <button onclick="numbers('8');">8</td>
+ <td> <button onclick="numbers('9');">9</td>
+ <td> <button onclick="addition();">+</td>
+</tr>
+ <tr>
+   <td> <div id="zero" ></div> <button onclick="numbers('0');">0</td>
+   <td> <button onclick="decimal();">.</td>
+   <td> <button onclick="equals('=');">=</td>
+ </tr>
+ <tr>
 
- </tr>
- <tr>
-   <td onclick="numbers('7');">7</td>
-   <td onclick="numbers('8');">8</td>
-   <td onclick="numbers('9');">9</td>
-   <td onclick="fourfunction('x');">x</td>
- </tr>
- <tr>
-   <td onclick="numbers('4');">4</td>
-   <td onclick="numbers('5');">5</td>
-   <td onclick="numbers('6');">6</td>
-   <td onclick="fourfunction('/');">/</td>
- </tr>
- <tr>
-   <td onclick="numbers('1');">1</td>
-   <td onclick="numbers('2');">2</td>
-   <td onclick="numbers('3');">3</td>
-   <td onclick="fourfunction('-');">-</td>
- </tr>
- <tr>
-   <td onclick="numbers('0');">0</td>
-   <td onclick="fourfunction('.');">.</td>
-   <td onclick="equals('=');">=</td>
-   <td onclick="fourfunction('+');">+</td>
- </tr>
- <tr>
-   <td onclick="AC();">AC</td>
-   <td onclick="numbers('ans');">Ans</td>
 </table>
  </body>
 
 </html>
-
-    
