@@ -1,6 +1,7 @@
 table {
  margin-left: auto;
  margin-right: auto;
+
 }
 
 td {
@@ -19,14 +20,30 @@ button:hover{
 }
 
 button {
-  height: 60px;
-  width: 60px;
+  height: 90px;
+  width: 90px;
   text-align: center;
   display: inline-block;
   margin: auto;
+  margin-left: 1%;
+  margin-right: 1%;
   background-color: white;
+  font-size: 40px;
+  font-family: Digital;
+  border-radius: 50px;
 }
 
 #zero {
-  width: 120px;
+  width: 192px;
+  background-color: #505050;
+  color: white;
+}
+
+.numButton {
+  background-color: #505050;
+  color: white;
+}
+
+.operationButton {
+  background-color: #FF9500;
 }
