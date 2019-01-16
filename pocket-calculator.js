@@ -33,7 +33,7 @@ function insert(num){
    document.getElementById("num7Button").disabled = true;
    document.getElementById("num8Button").disabled = true;
    document.getElementById("num9Button").disabled = true;
-   document.getElementById("decimalButton").disabled = true;
+   document.getElementById("decimalPoint").disabled = true;
  }
 
  console.log(document.calculator.display.value.split(",").join(""));
@@ -41,7 +41,7 @@ console.log(document.calculator.display.value);
 let commaInput = Number(document.calculator.display.value.split(",").join("")).toLocaleString();
 document.calculator.display.value = commaInput;
 }
-function clean(){
+function clear(){
  document.calculator.display.value = 0;
  executed = false;
  decimalStatus = false;
@@ -56,7 +56,7 @@ function clean(){
    document.getElementById("num7Button").disabled = false;
    document.getElementById("num8Button").disabled = false;
    document.getElementById("num9Button").disabled = false;
-   document.getElementById("decimalButton").disabled = false;
+   document.getElementById("decimalPoint").disabled = false;
 }
 function clearOnOp(){
  document.calculator.display.value = 0;
@@ -72,7 +72,7 @@ function clearOnOp(){
  document.getElementById("num7Button").disabled = false;
  document.getElementById("num8Button").disabled = false;
  document.getElementById("num9Button").disabled = false;
- document.getElementById("decimalButton").disabled = false;
+ document.getElementById("decimalPoint").disabled = false;
 }
 function equal(){
  document.getElementById("zero").disabled = true;
@@ -85,7 +85,7 @@ function equal(){
  document.getElementById("num7Button").disabled = true;
  document.getElementById("num8Button").disabled = true;
  document.getElementById("num9Button").disabled = true;
- document.getElementById("decimalButton").disabled = true;
+ document.getElementById("decimalPoint").disabled = true;
  let calcAnswer= eval(expressionArray.join(''));
    expressionArray = [];
    expressionArray = [calcAnswer];
