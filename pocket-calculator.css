@@ -58,6 +58,13 @@ button {
   background-color: white; 
 }
 
+#textview {
+  width: 370px;
+  height: 50px;
+  font-size: 25px;
+  margin: 1px;
+}
+
 .decimalPoint {
   background-color: #505050;
   color: white;
