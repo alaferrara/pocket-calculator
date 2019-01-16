@@ -49,14 +49,6 @@ button {
   background-color: #FF9500;
 }
 
-#calc_frame {
-  height: 90px;
-  border: 2px solid black;
-  padding: 0px 50px;
-  font-size: 40px;
-  text-align: center; 
-}
-
 .decimalPoint {
   background-color: #505050;
   color: white;
