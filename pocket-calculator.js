@@ -41,7 +41,7 @@ console.log(document.calculator.display.value);
 let commaInput = Number(document.calculator.display.value.split(",").join("")).toLocaleString();
 document.calculator.display.value = commaInput;
 }
-function clear(){
+function clean(){
  document.calculator.display.value = 0;
  executed = false;
  decimalStatus = false;
