@@ -30,32 +30,32 @@
  </tr>
 
  <tr>
-   <td> <button onclick="AC();">AC</td>
+   <td> <button onclick="clear();">AC</td>
    <td> <button onclick="negation();">+/-</td>
-   <td> <button onclick="percent();">%</td>
-   <td> <button class="operationButton" onclick="divison();">/</td>
+   <td> <button onclick="percentage();">%</td>
+   <td> <button class="operationButton" onclick="insert('/'); clearOnOp();">/</td>
  </tr>
  <tr>
-   <td> <button id = "num1Button" class="numButton" onclick="numbers('1');">1</td>
-   <td> <button id = "num2Button" class="numButton" onclick="numbers('2');">2</td>
-   <td> <button id = "num3Button" class="numButton" onclick="numbers('3');">3</td>
-   <td> <button class="operationButton" onclick="multiplication();">x</td>
+   <td> <button id = "num1Button" class="numButton" onclick="insert(1);">1</td>
+   <td> <button id = "num2Button" class="numButton" onclick="insert(2);">2</td>
+   <td> <button id = "num3Button" class="numButton" onclick="insert(3);">3</td>
+   <td> <button class="operationButton" onclick="insert('*'); clearOnOp();">x</td>
  </tr>
  <tr>
-   <td> <button id = "num4Button" class="numButton" onclick="numbers('4');">4</td>
-   <td> <button id = "num5Button" class="numButton" onclick="numbers('5');">5</td>
-   <td> <button id = "num6Button" class="numButton" onclick="numbers('6');">6</td>
-   <td> <button class="operationButton" onclick="subtraction();">-</td>
+   <td> <button id = "num4Button" class="numButton" onclick="insert(4);">4</td>
+   <td> <button id = "num5Button" class="numButton" onclick="insert(5);">5</td>
+   <td> <button id = "num6Button" class="numButton" onclick="insert(6);">6</td>
+   <td> <button class="operationButton" onclick="insert('-'); clearOnOp();">-</td>
  </tr>
  <tr>
- <td> <button id = "num7Button" class="numButton" onclick="numbers('7');">7</td>
- <td> <button id = "num8Button" class="numButton" onclick="numbers('8');">8</td>
- <td> <button id = "num9Button" class="numButton" onclick="numbers('9');">9</td>
- <td> <button class="operationButton" onclick="addition();">+</td>
+ <td> <button id = "num7Button" class="numButton" onclick="insert(7);">7</td>
+ <td> <button id = "num8Button" class="numButton" onclick="insert(8);">8</td>
+ <td> <button id = "num9Button" class="numButton" onclick="insert(9);">9</td>
+ <td> <button class="operationButton" onclick="insert('+'); clearOnOp();">+</td>
 </tr>
  <tr>
-   <td colspan="2"> <button id = "zero" onclick="zero('0');">0</td>
-   <td> <button class="decimalPoint" onclick="decimal();">.</td>
+   <td colspan="2"> <button id = "zero" onclick="insert(0);">0</td>
+   <td> <button class="decimalPoint" onclick="decimalInsert('.');">.</td>
    <td> <button class="operationButton" onclick="equals('=');">=</td>
  </tr>
  <tr>
