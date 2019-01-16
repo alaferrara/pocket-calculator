@@ -33,6 +33,7 @@ function insert(num){
    document.getElementById("num7Button").disabled = true;
    document.getElementById("num8Button").disabled = true;
    document.getElementById("num9Button").disabled = true;
+   document.getElementById("decimalButton").disabled = true;
  }
 
  console.log(document.calculator.display.value.split(",").join(""));
@@ -44,7 +45,6 @@ function clean(){
  document.calculator.display.value = 0;
  executed = false;
  decimalStatus = false;
- piStatus = false;
    expressionArray = [];
    document.getElementById("zero").disabled = false;
    document.getElementById("num1Button").disabled = false;
@@ -56,13 +56,12 @@ function clean(){
    document.getElementById("num7Button").disabled = false;
    document.getElementById("num8Button").disabled = false;
    document.getElementById("num9Button").disabled = false;
-   document.getElementById("piButton").disabled = false;
+   document.getElementById("decimalButton").disabled = false;
 }
 function clearOnOp(){
  document.calculator.display.value = 0;
  executed = false;
  decimalStatus = false;
- piStatus = false;
  document.getElementById("zero").disabled = false;
  document.getElementById("num1Button").disabled = false;
  document.getElementById("num2Button").disabled = false;
@@ -73,10 +72,9 @@ function clearOnOp(){
  document.getElementById("num7Button").disabled = false;
  document.getElementById("num8Button").disabled = false;
  document.getElementById("num9Button").disabled = false;
- document.getElementById("piButton").disabled = false;
+ document.getElementById("decimalButton").disabled = false;
 }
 function equal(){
- piStatus = false;
  document.getElementById("zero").disabled = true;
  document.getElementById("num1Button").disabled = true;
  document.getElementById("num2Button").disabled = true;
@@ -87,7 +85,7 @@ function equal(){
  document.getElementById("num7Button").disabled = true;
  document.getElementById("num8Button").disabled = true;
  document.getElementById("num9Button").disabled = true;
- document.getElementById("piButton").disabled = true;
+ document.getElementById("decimalButton").disabled = true;
  let calcAnswer= eval(expressionArray.join(''));
    expressionArray = [];
    expressionArray = [calcAnswer];
@@ -118,14 +116,5 @@ function decimalInsert(num){
    expressionArray.push(num);
    console.log(expressionArray);
    decimalStatus = true;
- }
-}
-function piInsert(num){
- if(piStatus == false){
-   document.calculator.display.value = '';
-   document.calculator.display.value = document.calculator.display.value + num;
-   expressionArray.push(num);
-   console.log(expressionArray);
-   piStatus = true;
  }
 }
