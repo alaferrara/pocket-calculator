@@ -53,3 +53,7 @@ button {
   background-color: #505050;
   color: white;
 }
+
+#calc_frame {
+ align: center;
+}
