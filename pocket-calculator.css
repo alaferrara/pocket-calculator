@@ -54,6 +54,14 @@ button {
   color: white;
 }
 
-#calc_frame {
- align: center;
+input{
+  width:599px;
+  height:125px;
+  position:absolute;
+  left:349px;
+  top:15px;
+  text-align: right;
+  font-size: 60px;
+  color:black;
+  border: solid black 2px;
 }
