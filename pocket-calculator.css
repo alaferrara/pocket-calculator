@@ -58,3 +58,94 @@ button {
  width: 300px;
  height: 75px;
 }
+
+#piButton{
+  position:absolute;
+  top: 148px;
+  left: 190px;
+}
+#divisionButton{
+  position:absolute;
+  left:802px;
+  top:148px;
+}
+#multiplcationButton{
+  position:absolute;
+  left:802px;
+  top:299px;
+}
+#subtractionButton{
+  position:absolute;
+  left:802px;
+  top:450px;
+}
+#additionButton{
+  position:absolute;
+  left:802px;
+  top:601px;
+}
+#equalButton{
+  position:absolute;
+  left:802px;
+  top:752px;
+}
+#decimalButton{
+  position:absolute;
+  left:651px;
+  top:752px;
+}
+#buttonNum0{
+  position:absolute;
+  left:349px;
+  top:752px;
+}
+#buttonNum1{
+  position:absolute;
+  left:349px;
+  top:601px;
+}
+#buttonNum2{
+  position:absolute;
+  left:500px;
+  top:601px;
+}
+#buttonNum3{
+  position:absolute;
+  left:651px;
+  top:601px;
+}
+#buttonNum4{
+  position:absolute;
+  left:349px;
+  top:450px;
+}
+#buttonNum5{
+  position:absolute;
+  left: 500px;
+  top: 450px;
+}
+#buttonNum6{
+  position:absolute;
+  left:651px;
+  top:450px;
+}
+#buttonNum7{
+position:absolute;
+left:349px;
+top:299px;
+}
+#buttonNum8{
+position:absolute;
+left:500px;
+top:299px;
+}
+#buttonNum9{
+position:absolute;
+left:651px;
+top:299px;
+}
+#clearButton{
+  position:absolute;
+  left:349px;
+  top:148px;
+}
