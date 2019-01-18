@@ -1,6 +1,8 @@
 table {
  margin-left: auto;
  margin-right: auto;
+ border: solid black;
+
 
 }
 
@@ -34,11 +36,7 @@ button {
   border-radius: 50px;
 }
 
-#zero {
-  width: 192px;
-  background-color: #505050;
-  color: white;
-}
+
 
 .numButton {
   background-color: #505050;
@@ -59,3 +57,12 @@ button {
  height: 10px;
 }
 
+input {
+  width: 400px;
+  height: 90px;
+  font-size: 50px;
+  margin-top: -40px;
+  margin-left: 5px;
+  border-radius: 30px;
+  text-align: center;
+}
