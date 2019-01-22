@@ -72,5 +72,6 @@ input {
 body {
  background-color: black;
 }
-title {
+.header {
  color: white;
+}
