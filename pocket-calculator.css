@@ -66,3 +66,7 @@ input {
   border-radius: 30px;
   text-align: center;
 }
+
+body {
+ background-color: black;
+}
